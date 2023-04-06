@@ -2,9 +2,11 @@ import "./newdepression.css"
 import depressionbg from '../assests/depressionbg.jpg'
 // import { MdLocalHospital } from "react-icons/Md";
 // import {FaHandHoldingMedical} from "react-icons/Fa";
+import NavbarNew from './Navbarnew';
 const DepressNew = () => {
     return(
         <div className="newdepress-container">
+        <NavbarNew/>
             <div className="depressbg">
             <div className="depressheader">
                 <h1>SEEK HELP WITH US!</h1>
